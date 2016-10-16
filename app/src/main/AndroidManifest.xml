@@ -1,0 +1,104 @@
+<?xml version="5.0.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tf.tfpeople"
+    android:versionCode="5"
+    android:versionName="4.0.0" >
+
+    <uses-sdk  
+        android:minSdkVersion="18"
+        android:targetSdkVersion="22"
+		/>
+		
+		
+
+
+    <uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/> 
+    <uses-permission android:name="android.permission.READ_LOGS"/> 
+    <uses-permission android:name="android.permission.GET_TASKS"/> 
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取网络状态 -->
+	<uses-permission android:name="android.permission.INTERNET" /> <!-- 网络通信-->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />  <!-- 获取设备信息 -->
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取MAC地址-->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 读写sdcard，storage等等 -->
+	<uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- 允许程序录制音频 -->
+	
+	
+	
+	  <application
+        android:icon="@drawable/ic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".splash" 
+			>
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+	
+				
+			
+
+			<receiver 
+				android:name="com.baidu.appx.app_download.CompleteReceiver">
+				<intent-filter>
+					<action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+
+					<action
+						android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED"/>
+				</intent-filter>
+				<intent-filter>
+					<action android:name="android.intent.action.PACKAGE_ADDED"/>
+					<data android:scheme="package"/>
+				</intent-filter>
+			</receiver>
+			
+			
+			
+			<activity
+				android:name="com.baidu.appx.uikit.BDActivity"
+				android:configChanges="orientation|screenSize">
+			</activity>	
+			
+			
+			
+			
+			
+		</activity><activity	android:name=".MainActivity">
+			
+		</activity><activity	android:name=".about">
+
+
+		</activity><activity	android:name=".set">
+
+
+		</activity><activity	android:name=".MainActivity">
+			
+          
+		
+			
+	</activity>
+		
+		
+		
+		<meta-data
+			android:name="PGYER_APPID"
+			android:value="4ca31fc911647a3d7a7f8bd025c32416" >
+		</meta-data>
+    </application>
+
+</manifest>

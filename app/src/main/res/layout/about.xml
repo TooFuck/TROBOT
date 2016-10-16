@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="top|center"
+	android:background="#EDEDED">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/mToolbar"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:text="   关  于"
+		android:background="#4045F8"/>
+
+	<ImageView
+		android:layout_height="70dp"
+		android:layout_width="70dp"
+		android:background="@drawable/ic"
+		android:layout_marginTop="40dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="T F 机 器 人      Ver5.0.0"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:paddingTop="10dp"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="制作：爱我是呵呵哥"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="11dp"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="U I:      爱我是呵呵哥"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:textColor="#000000"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="邮箱:2221057667@qq.com"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="44dp"
+		android:textSize="15sp"
+		android:textColor="#7C5B55"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="贴吧：                 爱我是呵呵哥"
+		android:layout_width="wrap_content"
+		android:textColor="#7C5B55"/>
+
+</LinearLayout>
+

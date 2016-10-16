@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#EDEDED">
+
+	<android.support.v7.widget.Toolbar
+		android:id="@+id/mToolbar"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:text="  设 置"
+		android:background="#4045F8"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginTop="25dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="人  声:"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:textColor="#0054FF"/>
+
+		<com.gc.materialdesign.views.ButtonRectangle
+			android:layout_height="wrap_content"
+			android:layout_width="100dp"
+			android:text=" 男 声 "
+			android:textStyle="bold"
+			android:textColor="#2196f3"
+			android:layout_margin="8dp"
+			android:id="@+id/setman"/>
+
+		<com.gc.materialdesign.views.ButtonRectangle
+			android:layout_height="wrap_content"
+			android:layout_width="100dp"
+			android:text=" 女 声 "
+			android:textStyle="bold"
+			android:textColor="#2196f3"
+			android:layout_margin="8dp"
+			android:id="@+id/setwomen"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginTop="41dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="语 速:"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:textColor="#0054FF"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="numberDecimal"
+			android:ems="10"
+			android:layout_width="wrap_content"
+			android:id="@+id/setspeed"
+			android:textColor="#000000"
+			android:textColorHint="#A5918C"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_marginTop="41dp">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="语 调:"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:textColor="#0054FF"/>
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:inputType="numberDecimal"
+			android:ems="10"
+			android:layout_width="wrap_content"
+			android:id="@+id/sethigh"
+			android:textColor="#000000"
+			android:textColorHint="#A5918C"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
