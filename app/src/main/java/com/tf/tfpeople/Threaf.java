@@ -10,7 +10,7 @@ public class Threaf
 			try
 			{
 			
-				JSONObject	 jo=new JSONObject(htmls.testGetHtml("http://www.tuling123.com/openapi/api?key=0c8ef6a7d5338a676edcfd5ba4786090&info=" + codeto.getUTF8XMLString(t)));
+				JSONObject	 jo=new JSONObject(htmls.testGetHtml("http://www.tuling123.com/openapi/api?key=0c8ef6a7d5338a676edcfd5ba4786090tf&info=" + codeto.getUTF8XMLString(t)));
 				int cd =  jo.get("code");
 				switch(cd){
 					case 100000:
