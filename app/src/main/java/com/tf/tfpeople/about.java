@@ -23,7 +23,7 @@ public class about extends AppCompatActivity
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 	//	requestWindowFeature(Window.FEATURE_NO_TITLE);
-		
+		//ggg陶哥霸气
 	
 		setTheme(R.style.Theme_AppCompat_NoActionBar);
 		super.onCreate(savedInstanceState);
