@@ -21,7 +21,7 @@ public class about extends AppCompatActivity
 	protected void onCreate(Bundle savedInstanceState) {
 	//	requestWindowFeature(Window.FEATURE_NO_TITLE);
 		
-	
+	//陶哥霸气
 		setTheme(R.style.Theme_AppCompat_NoActionBar);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.about);
