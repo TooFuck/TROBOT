@@ -17,6 +17,9 @@ public class about extends AppCompatActivity
 
 	private static final long SPLASH_DELAY_MILLIS=2056;
 //*
+    
+    
+    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 	//	requestWindowFeature(Window.FEATURE_NO_TITLE);
